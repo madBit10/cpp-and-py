@@ -14,7 +14,7 @@ int secLarge(int arr[], int n) {
     for(int i = 0; i<n; i++) {
         if(arr[i]>d && arr[i]<a) {
             d = arr[i];
-            return c;
+            return d;
         }
     }
 
