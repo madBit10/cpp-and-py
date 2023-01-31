@@ -33,6 +33,6 @@ int main() {
 
     int ans = secLarge(arr,n);
 
-    cout<<ans<<endl;
+    cout<<ans<<endl
     return 0;
 }
