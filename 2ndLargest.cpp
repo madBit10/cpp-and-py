@@ -4,7 +4,7 @@ using namespace std;
 int secLarge(int arr[], int n) {
 
     int a = 0;
-    int c = 0;
+    int d = 0;
 
     for(int i = 0; i<n; i++) {
         if(arr[i]>a) 
@@ -12,8 +12,8 @@ int secLarge(int arr[], int n) {
     }
 
     for(int i = 0; i<n; i++) {
-        if(arr[i]>c && arr[i]<a) {
-            c = arr[i];
+        if(arr[i]>d && arr[i]<a) {
+            d = arr[i];
             return c;
         }
     }
