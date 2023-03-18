@@ -1,3 +1,6 @@
+
+# A new comment Hurray
+
 import sqlite3
 
 import click
